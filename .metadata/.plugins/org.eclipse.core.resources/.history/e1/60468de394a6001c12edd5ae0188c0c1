@@ -1,0 +1,21 @@
+package com.learning.interfaces;
+
+class Circle implements Shape{
+	double radius;	
+	public Circle(double radius) {
+		this.radius = radius;
+	}
+
+	@Override
+	public void display() {
+		double aoc = pi*radius*radius;
+		System.out.println("Area of Circle:: "+aoc);		
+	}
+	
+}
+
+public class FirstDemo {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,26 @@
+package com.learning.inheritance;
+
+
+class Demo {
+	int x;
+	int y;
+	void printData() {
+		x = x + 3;
+		y += 5;
+		System.out.println("X value is "+x+" Y value is "+y);
+	}
+}
+
+
+public class StaticDemo {
+	public static void main(String[] args) {
+		Demo obj1 = new Demo();
+		System.out.println("obj1 memory address ---> "+obj1.hashCode());
+		obj1.printData();		
+		obj1.printData();
+		
+		Demo obj2 = new Demo();
+		System.out.println("obj2 memory address ---> "+obj2.hashCode());
+		obj2.printData();
+	}
+}

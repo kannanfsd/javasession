@@ -1,0 +1,25 @@
+package com.learning.inheritance;
+
+class Base {
+	int a;
+	void printData() {
+		System.out.println("This is Base Method.");
+	}
+	void printData(String name) {
+		System.out.println("Name: "+name);
+	}
+}
+class Derived1 extends Base{
+	@Override
+	void printData() {
+		a = 20;
+		super.printData();
+		System.out.println("This is Derived1 Method."+a);
+	}
+}
+public class FirstDemo {
+	public static void main(String[] args) {
+		Derived1 obj = new Derived1();
+		obj.printData();
+	}
+}
