@@ -122,6 +122,7 @@ Thread-based multitasking
 
 Thread in Java
 ----------------
+Process vs Thread
 
 process-1
  t1-->t2-->t3 
@@ -135,9 +136,20 @@ java.lang.Thread(c)
 How to create a Thread 			- Thread.currentThread()
 How to set name of the thread		- setName(String name)
 How check priority value		- setPriority(int)
-MIN_PRIORITY	- 1
-NORM_PRIORITY	- 5 (By Default)
-MAX_PRIORITY	- 10
+static MIN_PRIORITY	- 1
+static NORM_PRIORITY	- 5 (By Default)
+static MAX_PRIORITY	- 1
+
+static void sleep(long milliseconds)throws InterruptedException
+Thread.join()
+--synchronization 
+  |__synchronized method
+  |__synchronized block
+  |__static synchronization
+
+Object.wait()->notify()
+	     ->notifyAll()
+
 
 java.lang.Runnable(i)
 	  |__ run()

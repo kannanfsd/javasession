@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.learning.inheritance.Derived1"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.learning.inheritance.Animal"/>
+    <fullyQualifiedTypeName name="com.learning.inheritance.MyDerived2"/>
+    <fullyQualifiedTypeName name="com.learning.abs.LivingThing"/>
+    <fullyQualifiedTypeName name="com.learning.abs.Human"/>
+    <fullyQualifiedTypeName name="com.learning.abs.Horse"/>
+    <fullyQualifiedTypeName name="com.learning.abs.Shape"/>
+    <fullyQualifiedTypeName name="com.learning.abs.Circle"/>
+    <fullyQualifiedTypeName name="com.learning.abs.Square"/>
+    <fullyQualifiedTypeName name="com.learning.interfaces.Shape"/>
+    <fullyQualifiedTypeName name="com.learning.interfaces.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+</qualifiedTypeNameHistroy>

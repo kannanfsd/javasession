@@ -1,0 +1,25 @@
+package com.learning.multitasking;
+
+class Box extends Thread {
+	@Override
+	public void run() {
+		System.out.println("Thread Run Method is begin.");
+		for(int i=1;i<=5;i++) {
+			System.out.println("Thread execute "+i+" time/sec");
+			try {
+				Thread.sleep(3000);
+			} catch(InterruptedException ie) {
+				ie.printStackTrace();
+			}			
+		}
+		System.out.println("Run Method is End.");
+	}
+}
+
+
+public class SecondProgram {
+	public static void main(String[] args) {
+		Box obj = new Box();
+		obj.start();
+	}
+}
